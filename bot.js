@@ -1,4 +1,3 @@
-var unirest = require('unirest');
 var VK = require('vksdk');
 var TelegramBot = require('node-telegram-bot-api');
 var config = require('./config.js');
