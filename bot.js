@@ -85,7 +85,7 @@ bot.onText(/\s*[a-zA-Z\/\/:\.]*vk.com\/wall(.+)$/, function (msg, match) {
 		// Отправляем запрос в VK API на публикацию данной записи.
 		vk.request('wall.post', params, function(data){
 			bot.sendMessage(msg.from.id, 'Запись добавлена ✅\n📢 Ссылка: https://vk.com/wall-'+config.group_id+'_'+data.response.post_id);
-			hours += getRandomInt(2,5);
+			hours += getRandomInt(2,5); // Случайное число от 2 до 5
 		});
 
 	});
