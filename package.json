@@ -1,0 +1,36 @@
+{
+  "name": "vkposter-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram-бот написанный на Node.JS, для публикации записей в Вконтакте.",
+  "main": "index.js",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.23.3",
+    "node-vkapi": "^2.0.4",
+    "unirest": "^0.5.1",
+    "vksdk": "^5.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Archakov06/vkposter-telegram-bot.git"
+  },
+  "keywords": [
+    "telegram",
+    "telegram",
+    "bot",
+    "vk",
+    "vk",
+    "api",
+    "telegram",
+    "api"
+  ],
+  "author": "Archakov Dennis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Archakov06/vkposter-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/Archakov06/vkposter-telegram-bot#readme"
+}
