@@ -6,7 +6,6 @@
   "dependencies": {
     "node-telegram-bot-api": "^0.23.3",
     "node-vkapi": "^2.0.4",
-    "unirest": "^0.5.1",
     "vksdk": "^5.3.2"
   },
   "devDependencies": {},
